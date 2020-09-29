@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <style>
+        #number{
+            width:60px;
+        }
+        
+    </style>
+  </head>
+  <body>
+    <fieldset>
+    <legend>HTML FORMS</legend>
+
+    <div class="form">
+    
+    <form action="/action_page.php">
+    <label for="fname">Name:</label><br>
+    <input type="text" name="Name" value="Your name"><br><br>
+    <label for="lname">Surname:</label><br>
+    <input type="text" name="Surname" value="Your surname"><br><br>
+    <label for="lname">Email:</label><br>
+    <input type="text" name="Email" value="Your email"><br><br>
+    <label for="lname">Number:</label><br>
+    <input type="text" name="Mobile" value="+370"><br><br><br>
+    <label for="lname">Age:</label><br>
+    <input type="number" id="number" name="Age" value=""><br><br>
+
+    <label for="food">Favourite food</label><br>
+  <select name="food" id="food">
+    <option value="Apple">Apple</option>
+    <option value="Pizza">Pizza</option>
+    <option value="Spaghetti">Spaghetti</option>
+    <option value="Chicken">Chicken</option>
+  </select>
+<br>
+</form>
+    
+  <form>
+    <p>Gender:</p>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    
+  </form>
+  <br>
+  <label for="myfile"></label>
+  <input type="file" id="myfile" name="myfile" value="asd">
+<br>
+<br>
+<br>
+  <label for="start">Date:</label><br>
+
+<input type="date" id="start" name="trip-start"
+       value="mmmm-mm-dd"
+       min="2018-01-01" max=mmmm-mm-dd>
+<br>
+<br>
+<label>Enter your message:</label><br><br>
+       <textarea rows="12" cols="52" name="comment" form="usrform" value="Message..."></textarea><br><br>
+        <button>reset</button>
+        <button>submit</button>
+
+  </div>
+  </fieldset>
+  </body>
+</html>
